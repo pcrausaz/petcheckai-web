@@ -1,0 +1,26 @@
+{
+  "name": "Pet Check AI - Your trusted companion for pet health decisions",
+  "short_name": "Pet Check AI",
+  "description": "AI-driven health assessments for your pets. Get instant, reliable guidance on pet symptoms and health concerns 24/7.",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#0AA8A7",
+  "background_color": "#4A9EFF",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "categories": ["health", "medical", "pets", "ai"]
+}

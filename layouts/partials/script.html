@@ -1,0 +1,19 @@
+<!-- Main js file -->
+{{ if site.Params.plugins.js }}
+  {{ range site.Params.plugins.js }}
+    {{ if findRE "^http" .link }}
+      <script
+        src="{{ .link | relURL }}"
+        type="text/javascript"
+        {{ .attributes | safeHTMLAttr }}></script>
+    {{ else }}
+      {{ $script := resources.Get .link }}
+      {{ if $script }}
+        <script src="{{ $script.RelPermalink }}" type="text/javascript"></script>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<!-- Search index -->
+<script src="{{ "js/script.js" | relURL }}"></script>

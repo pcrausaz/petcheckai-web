@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#4A9EFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2B5CE6;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background with rounded corners -->
+  <rect width="100" height="100" rx="22" ry="22" fill="url(#bg)"/>
+  
+  <!-- Dog silhouette -->
+  <g stroke="#8B2635" stroke-width="2" fill="none">
+    <!-- Dog head -->
+    <ellipse cx="35" cy="28" rx="12" ry="10"/>
+    <!-- Dog ears -->
+    <path d="M25 25 Q20 20 22 32"/>
+    <path d="M45 25 Q50 20 48 32"/>
+    <!-- Dog body -->
+    <path d="M35 38 L35 55"/>
+    <!-- Dog eyes -->
+    <circle cx="31" cy="26" r="1.5" fill="#8B2635"/>
+    <circle cx="39" cy="26" r="1.5" fill="#8B2635"/>
+    <!-- Dog nose -->
+    <circle cx="35" cy="31" r="2" fill="#8B2635"/>
+    <!-- Dog mouth -->
+    <path d="M35 33 Q32 35 30 34 M35 33 Q38 35 40 34"/>
+  </g>
+  
+  <!-- Cat silhouette -->
+  <g stroke="#8B2635" stroke-width="2" fill="none">
+    <!-- Cat head -->
+    <circle cx="25" cy="65" r="8"/>
+    <!-- Cat ears -->
+    <path d="M20 60 L17 52 L23 58"/>
+    <path d="M30 60 L33 52 L27 58"/>
+    <!-- Cat body -->
+    <ellipse cx="25" cy="75" rx="6" ry="8"/>
+    <!-- Cat tail -->
+    <path d="M19 80 Q10 85 15 90"/>
+    <!-- Cat eyes -->
+    <circle cx="22" cy="63" r="1" fill="#8B2635"/>
+    <circle cx="28" cy="63" r="1" fill="#8B2635"/>
+    <!-- Cat nose -->
+    <path d="M25 66 L24 67 L26 67 Z" fill="#8B2635"/>
+    <!-- Cat whiskers -->
+    <path d="M15 65 L20 65 M30 65 L35 65"/>
+    <path d="M16 67 L20 67 M30 67 L34 67"/>
+  </g>
+  
+  <!-- Medical cross -->
+  <g stroke="#FF6B6B" stroke-width="3" fill="none">
+    <path d="M65 45 L65 55 M60 50 L70 50"/>
+    <!-- Stethoscope curve -->
+    <path d="M72 50 Q80 45 80 55"/>
+    <circle cx="80" cy="58" r="3" stroke-width="2"/>
+  </g>
+</svg>

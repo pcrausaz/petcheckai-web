@@ -1,0 +1,60 @@
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="navigation">
+  <div class="container">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <!-- navbar brand/logo -->
+      <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
+        {{ partial "logo.html" }}
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          {{ range site.Menus.main }}
+          {{ if .HasChildren }}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              {{ .Name }}
+            </a>
+            <ul class="dropdown-menu">
+              {{ range .Children }}
+              <li><a class="dropdown-item" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+              {{ end }}
+            </ul>
+          </li>
+          {{ else }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+          {{ end }}
+
+          <!-- Language List -->
+          {{ if .IsTranslated }}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              {{ .Site.Language.Params.languageName | default .Site.Language.LanguageName }}
+            </a>
+            <ul class="dropdown-menu">
+              <!-- Current page language -->
+              <li><a class="dropdown-item active" href="{{ .RelPermalink }}">
+                {{ .Site.Language.Params.languageName | default .Site.Language.LanguageName }}
+              </a></li>
+              <!-- Other translations -->
+              {{ range .Translations }}
+              <li><a class="dropdown-item" href="{{ .RelPermalink }}">
+                {{ .Site.Language.Params.languageName | default .Site.Language.LanguageName }}
+              </a></li>
+              {{ end }}
+            </ul>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}

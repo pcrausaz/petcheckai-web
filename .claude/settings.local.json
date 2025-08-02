@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(timeout 5 hugo server:*)",
+      "Bash(timeout 3 hugo server:*)",
+      "Bash(mv:*)",
+      "Bash(sips:*)",
+      "Bash(pkill:*)",
+      "Bash(true)"
+    ],
+    "deny": []
+  }
+}

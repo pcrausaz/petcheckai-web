@@ -1,0 +1,4 @@
+{{/* Simple image partial */}}
+{{ if .Src }}
+<img src="{{ .Src | relURL }}" alt="{{ .Alt | default "Image" }}" class="{{ .Class | default "img-fluid" }}">
+{{ end }}

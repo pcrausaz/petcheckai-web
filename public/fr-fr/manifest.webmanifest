@@ -1,0 +1,12 @@
+{
+  "name": "Pet Check AI",
+  "short_name": "Pet Check AI",
+  "lang": "fr-fr",
+  "theme_color": "#0AA8A7",
+  "background_color": "#fff",
+
+  
+  
+  "display": "standalone",
+  "start_url": "/fr-fr?utm_source=web_app_manifest"
+}

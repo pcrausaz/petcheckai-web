@@ -1,0 +1,8 @@
+{{/* Return featured image or empty string */}}
+{{- $image := "" -}}
+{{- if .Params.featured_image -}}
+  {{- $image = .Params.featured_image -}}
+{{- else if .Params.image -}}
+  {{- $image = .Params.image -}}
+{{- end -}}
+{{- return $image -}}

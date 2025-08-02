@@ -1,0 +1,13 @@
+{{ if .IsTranslated }}
+<div class="language-switcher dropdown">
+  <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    {{ if eq .Language.Lang "en-US" }}🇺🇸 English{{ else if eq .Language.Lang "fr-FR" }}🇫🇷 Français{{ end }}
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item {{ if eq .Language.Lang "en-US" }}active{{ end }}" href="{{ .RelPermalink }}">🇺🇸 English</a></li>
+    {{ range .Translations }}
+    <li><a class="dropdown-item {{ if eq .Language.Lang "fr-FR" }}active{{ end }}" href="{{ .RelPermalink }}">🇫🇷 Français</a></li>
+    {{ end}}
+  </ul>
+</div>
+{{ end }}
