@@ -7,7 +7,7 @@
     <div class="{{ $cover_dimming_class }}">
       {{ partials.Include "site-navigation.html" . }}
       <div class="tc-l pv4 ph3 ph4-ns">
-        {{ if and (not .Params.omit_header_text) (not (in (slice "faq" "support" "privacy" "eula") .Section)) }}
+        {{ if and (not .Params.omit_header_text) (not (in (slice "/faq/" "/support/" "/privacy/" "/eula/" "/fr-fr/faq/" "/fr-fr/support/" "/fr-fr/privacy/" "/fr-fr/eula/") .RelPermalink)) }}
           <div class="f2 f1-l fw2 white-90 mb0 lh-title">{{ .Title | compare.Default .Site.Title }}</div>
           {{ with .Params.description  }}
             <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
@@ -23,7 +23,7 @@
     <div class="{{ .Site.Params.background_color_class | compare.Default "bg-black" }}">
       {{ partials.Include "site-navigation.html" . }}
       <div class="tc-l pv4 ph3 ph4-ns">
-        {{ if and (not .Params.omit_header_text) (not (in (slice "faq" "support" "privacy" "eula") .Section)) }}
+        {{ if and (not .Params.omit_header_text) (not (in (slice "/faq/" "/support/" "/privacy/" "/eula/" "/fr-fr/faq/" "/fr-fr/support/" "/fr-fr/privacy/" "/fr-fr/eula/") .RelPermalink)) }}
           <div class="f2 f1-l fw2 white-90 mb0 lh-title">{{ .Title | compare.Default .Site.Title }}</div>
           {{ with .Params.description  }}
             <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">

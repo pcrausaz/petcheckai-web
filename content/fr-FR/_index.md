@@ -5,9 +5,10 @@ banner:
   content : "Pet Check AI permet aux propriétaires d'animaux de compagnie de bénéficier d'évaluations de santé instantanées, basées sur l'IA, lorsque vous vous inquiétez pour votre compagnon à quatre pattes. Qu'il soit 3 heures du matin et que votre chat se comporte bizarrement, ou que vous ayez des doutes quant à la nécessité d'une visite chez le vétérinaire, Pet Check AI est là pour vous aider."
   image : "/PetCheck-Web.png"
   button:
-    enable : true
+    enable : false
     label : "Télécharger la Bêta"
     link : "#download"
+  download_section : true
 
 ##################### Feature ##########################
 feature:

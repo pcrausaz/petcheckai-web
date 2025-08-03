@@ -2,93 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:50887/</loc>
     <lastmod>2025-05-22T21:48:43-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/"
+                href="http://localhost:50887/fr-fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/"
+                href="http://localhost:50887/"
                 />
   </url><url>
-    <loc>http://localhost:1313/eula/</loc>
+    <loc>http://localhost:50887/eula/</loc>
     <lastmod>2025-05-22T21:48:43-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/eula/"
+                href="http://localhost:50887/fr-fr/eula/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/eula/"
+                href="http://localhost:50887/eula/"
                 />
   </url><url>
-    <loc>http://localhost:1313/privacy/</loc>
+    <loc>http://localhost:50887/privacy/</loc>
     <lastmod>2025-05-22T21:48:32-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/privacy/"
+                href="http://localhost:50887/fr-fr/privacy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/privacy/"
+                href="http://localhost:50887/privacy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/support/</loc>
+    <loc>http://localhost:50887/support/</loc>
     <lastmod>2025-05-22T21:48:21-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/support/"
+                href="http://localhost:50887/fr-fr/support/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/support/"
+                href="http://localhost:50887/support/"
                 />
   </url><url>
-    <loc>http://localhost:1313/faq/</loc>
+    <loc>http://localhost:50887/faq/</loc>
     <lastmod>2025-05-22T21:48:13-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/faq/"
+                href="http://localhost:50887/fr-fr/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/faq/"
+                href="http://localhost:50887/faq/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:50887/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/categories/"
+                href="http://localhost:50887/fr-fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:50887/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:50887/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/tags/"
+                href="http://localhost:50887/fr-fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:50887/tags/"
                 />
   </url>
 </urlset>

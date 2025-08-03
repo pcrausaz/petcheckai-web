@@ -5,9 +5,10 @@ banner:
   content : "Pet Check AI empowers pet parents with instant, AI-driven health assessments when you're concerned about your furry family member. Whether it's 3 AM and your cat is acting strange, or you're unsure if that new behavior warrants a vet visit, Pet Check AI is here to help."
   image : "/PetCheck-Web.png"
   button:
-    enable : true
+    enable : false
     label : "Download Beta Now"
     link : "#download"
+  download_section : true
 
 ##################### Feature ##########################
 feature:

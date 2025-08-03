@@ -76,3 +76,18 @@ body {
 .feature-card i {
   font-size: 3rem;
   color: #0AA8A7; }
+
+/* Banner image responsive sizing */
+.banner-image {
+  max-width: 200px;
+  width: 100%;
+  height: auto; }
+
+/* Responsive adjustments for banner image */
+@media (max-width: 768px) {
+  .banner-image {
+    max-width: 150px; } }
+
+@media (max-width: 480px) {
+  .banner-image {
+    max-width: 120px; } }

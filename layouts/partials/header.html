@@ -33,21 +33,22 @@
           {{ end }}
 
           <!-- Language List -->
-          {{ if .IsTranslated }}
+          {{ if hugo.IsMultilingual }}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              {{ .Site.Language.Params.languageName | default .Site.Language.LanguageName }}
+              🌐 {{ .Site.Language.Params.languageName }}
             </a>
             <ul class="dropdown-menu">
-              <!-- Current page language -->
-              <li><a class="dropdown-item active" href="{{ .RelPermalink }}">
-                {{ .Site.Language.Params.languageName | default .Site.Language.LanguageName }}
+              {{ range .Site.Languages }}
+              {{ if eq .Lang $.Site.Language.Lang }}
+              <li><a class="dropdown-item active" href="{{ absLangURL "/" }}">
+                {{ .Params.languageName }}
               </a></li>
-              <!-- Other translations -->
-              {{ range .Translations }}
-              <li><a class="dropdown-item" href="{{ .RelPermalink }}">
-                {{ .Site.Language.Params.languageName | default .Site.Language.LanguageName }}
+              {{ else }}
+              <li><a class="dropdown-item" href="{{ printf "/%s/" .Lang | absURL }}">
+                {{ .Params.languageName }}
               </a></li>
+              {{ end }}
               {{ end }}
             </ul>
           </li>

@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pet Check AI</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:50887/</link>
     <description>Recent content on Pet Check AI</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 May 2025 21:48:43 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50887/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EULA</title>
-      <link>http://localhost:1313/eula/</link>
+      <link>http://localhost:50887/eula/</link>
       <pubDate>Thu, 22 May 2025 21:48:43 -0500</pubDate>
-      <guid>http://localhost:1313/eula/</guid>
+      <guid>http://localhost:50887/eula/</guid>
       <description>&lt;h1 id=&#34;end-user-license-agreement-eula&#34;&gt;End User License Agreement (EULA)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-term-of-use&#34;&gt;1. Term of Use&lt;/h2&gt;&#xA;&lt;p&gt;EULA: &lt;a href=&#34;https://www.apple.com/legal/internet-services/itunes/dev/stdeula/&#34;&gt;https://www.apple.com/legal/internet-services/itunes/dev/stdeula/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>http://localhost:1313/privacy/</link>
+      <link>http://localhost:50887/privacy/</link>
       <pubDate>Thu, 22 May 2025 21:48:32 -0500</pubDate>
-      <guid>http://localhost:1313/privacy/</guid>
+      <guid>http://localhost:50887/privacy/</guid>
       <description>&lt;h1 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to &lt;em&gt;Pet Check AI&lt;/em&gt;, operated by &lt;a href=&#34;http://petcheckai.com&#34;&gt;&lt;strong&gt;petcheckai.com&lt;/strong&gt;&lt;/a&gt;. Your privacy is important to us.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Support</title>
-      <link>http://localhost:1313/support/</link>
+      <link>http://localhost:50887/support/</link>
       <pubDate>Thu, 22 May 2025 21:48:21 -0500</pubDate>
-      <guid>http://localhost:1313/support/</guid>
+      <guid>http://localhost:50887/support/</guid>
       <description>&lt;h1 id=&#34;support&#34;&gt;Support&lt;/h1&gt;&#xA;&lt;p&gt;For assistance, do not hesitate to contact our support team at the information provided below.&#xA;We encourage you to consult our list of &lt;a href=&#34;https://petcheckai.com/faq&#34;&gt;&lt;strong&gt;Frequently Asked Questions (FAQ)&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>FAQ</title>
-      <link>http://localhost:1313/faq/</link>
+      <link>http://localhost:50887/faq/</link>
       <pubDate>Thu, 22 May 2025 21:48:13 -0500</pubDate>
-      <guid>http://localhost:1313/faq/</guid>
-      <description>&lt;h1 id=&#34;frequently-asked-questions-faq&#34;&gt;Frequently Asked Questions (FAQ)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;beta-program-faq&#34;&gt;Beta Program FAQ&lt;/h2&gt;&#xA;&lt;h3 id=&#34;wait-why-a-beta-program&#34;&gt;Wait! Why a Beta Program?&lt;/h3&gt;&#xA;&lt;p&gt;The app has been released, yet the beta goes on, we will post new features, bug fixes etc&amp;hellip; on the beta line ahead of the store release. You can download the store release at the link below or from the home page.&#xA;&lt;style&gt;&#xA;    .app-store-badge {&#xA;        width: 150px;  &#xA;        height: auto;  &#xA;        display: block;  &#xA;        margin: 20px auto;  &#xA;    }&#xA;&lt;/style&gt;&#xA;    &#xA;&lt;p style=&#34;color: red;&#34;&gt; &#xA;    &lt;a href=&#34;https://apps.apple.com/app/pet-check-ai/idXXXXXXXXXX&#34; target=&#34;_blank&#34;&gt;&#xA;            &lt;img src=&#34;http://localhost:1313/images/app-store-badge.svg&#34; alt=&#34;Download on the App Store&#34; class=&#34;app-store-badge&#34;&gt;&#xA;    &lt;/a&gt;&#xA;&lt;/p&gt;</description>
+      <guid>http://localhost:50887/faq/</guid>
+      <description>&lt;h1 id=&#34;frequently-asked-questions-faq&#34;&gt;Frequently Asked Questions (FAQ)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;beta-program-faq&#34;&gt;Beta Program FAQ&lt;/h2&gt;&#xA;&lt;h3 id=&#34;wait-why-a-beta-program&#34;&gt;Wait! Why a Beta Program?&lt;/h3&gt;&#xA;&lt;p&gt;The app has been released, yet the beta goes on, we will post new features, bug fixes etc&amp;hellip; on the beta line ahead of the store release. You can download the store release at the link below or from the home page.&#xA;&lt;style&gt;&#xA;    .app-store-badge {&#xA;        width: 150px;  &#xA;        height: auto;  &#xA;        display: block;  &#xA;        margin: 20px auto;  &#xA;    }&#xA;&lt;/style&gt;&#xA;    &#xA;&lt;p style=&#34;color: red;&#34;&gt; &#xA;    &lt;a href=&#34;https://apps.apple.com/app/pet-check-ai/idXXXXXXXXXX&#34; target=&#34;_blank&#34;&gt;&#xA;            &lt;img src=&#34;http://localhost:50887/images/app-store-badge.svg&#34; alt=&#34;Download on the App Store&#34; class=&#34;app-store-badge&#34;&gt;&#xA;    &lt;/a&gt;&#xA;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

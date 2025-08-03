@@ -6,7 +6,13 @@
       "Bash(mv:*)",
       "Bash(sips:*)",
       "Bash(pkill:*)",
-      "Bash(true)"
+      "Bash(true)",
+      "Bash(hugo server:*)",
+      "Bash(curl:*)",
+      "Bash(hugo:*)",
+      "Bash(ls:*)",
+      "Bash(pgrep:*)",
+      "Bash(cp:*)"
     ],
     "deny": []
   }
