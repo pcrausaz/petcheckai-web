@@ -17,8 +17,7 @@
         {{ if .download_section }}
         <div class="text-center mt-2">
           <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
-            {{ readFile "layouts/shortcodes/downloadappbeta.html" | safeHTML }}
-            {{ readFile "layouts/shortcodes/betastamp.html" | safeHTML }}
+            {{ readFile "layouts/shortcodes/downloadapp.html" | safeHTML }}
           </div>
         </div>
         {{ end }}

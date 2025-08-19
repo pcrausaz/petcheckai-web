@@ -6,38 +6,14 @@ title = 'FAQ'
 
 # Frequently Asked Questions (FAQ)
 
-## Beta Program FAQ
-### Wait! Why a Beta Program?
-The app has been released, yet the beta goes on, we will post new features, bug fixes etc... on the beta line ahead of the store release. You can download the store release at the link below or from the home page.
-{{< downloadapp >}}
-
-### What is the Beta Program?
-The beta program allows friendly (😉)users to test the application before its official release and provide us with feedback to help improve it. You can download the beta at the link below.
-
-<div class="faq-download-section">
-{{< downloadappbeta >}}
-{{< betastamp >}}
-</div>
-
-###  Who can have access to the Beta Program?
-Anyone can have access - as long as we have slots available. We reserve the right to stop accepting new beta users if we have the need. 
-
-### What is that TestFlight application I need to download for the beta.
-*TestFlight* helps developers distributing and managing their beta application. For more details, please check [https://testflight.apple.com](https://testflight.apple.com)
-
-### I downloaded TestFlight, yet I still do not have access
-If you did not have *TestFlight* already installed, when you first click on the Beta link, you have to go through the TestFlight installation and configuration. Once you are all setup with TestFlight, only then you can use the Beta link to get access to the Beta. TL;DR Install TestFlight, then and only then use the Beta link.
-
-
-
 
 
 ## General FAQ
 
-### When will Pet Check AI release?
-In a near futur, once released, it can be downloaded from the Apple App Store. 
+### Is Pet Check AI released?
+Yes! Pet Check AI has been released and can be downloaded from the Apple App Store.
 {{< downloadapp >}}
-You can use the Beta in the meantime.
+You can also use the Beta version to get early access to new features.
 
 ### How do I get an account
 The app gives you the option to create a user in the profile settings (tap the avatar icon), using your email address. It gives you the option to register in the profile settings.
@@ -74,3 +50,25 @@ Go to profile settings and select "Delete Account.
 
 ### I have more questions
 For all other questions, we encourage your to contact our [**support**](mailto:support@petcheckai.com) team  using the information in the[**support page**](http://petcheckai.com/support).
+
+## Beta Program FAQ
+### Wait! Why a Beta Program?
+The app has been released, yet the beta goes on, we will post new features, bug fixes etc... on the beta line ahead of the store release. You can download the store release at the link below or from the home page.
+{{< downloadapp >}}
+
+### What is the Beta Program?
+The beta program allows friendly (😉)users to test the application before its official release and provide us with feedback to help improve it. You can download the beta at the link below.
+
+<div class="faq-download-section">
+{{< downloadappbeta >}}
+{{< betastamp >}}
+</div>
+
+###  Who can have access to the Beta Program?
+Anyone can have access - as long as we have slots available. We reserve the right to stop accepting new beta users if we have the need. 
+
+### What is that TestFlight application I need to download for the beta.
+*TestFlight* helps developers distributing and managing their beta application. For more details, please check [https://testflight.apple.com](https://testflight.apple.com)
+
+### I downloaded TestFlight, yet I still do not have access
+If you did not have *TestFlight* already installed, when you first click on the Beta link, you have to go through the TestFlight installation and configuration. Once you are all setup with TestFlight, only then you can use the Beta link to get access to the Beta. TL;DR Install TestFlight, then and only then use the Beta link.

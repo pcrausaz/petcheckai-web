@@ -6,7 +6,7 @@ banner:
   image : "/PetCheck-Web.png"
   button:
     enable : false
-    label : "Download Beta Now"
+    label : "Download Now"
     link : "#download"
   download_section : true
 
@@ -88,8 +88,7 @@ call_to_action:
 <!-- Banner Download Section -->
 <div class="text-center mt-4">
   <div class="d-flex justify-content-center align-items-center gap-3 mb-4 flex-wrap">
-    {{< downloadappbeta >}}
-    {{< betastamp >}}
+    {{< downloadapp >}}
   </div>
 </div>
 
@@ -100,19 +99,17 @@ call_to_action:
       <h2 class="mb-4">Ready to become a more informed pet advocate?</h2>
       <p class="lead mb-4">Join thousands of pet parents who trust Pet Check AI for reliable health guidance. Download now and give your furry family member the care they deserve.</p>
       <div class="d-flex justify-content-center align-items-center gap-3 mb-4 flex-wrap">
-        {{< downloadappbeta >}}
-        {{< betastamp >}}
+        {{< downloadapp >}}
       </div>
     </div>
   </div>
 </div>
 
 <div id="download" class="text-center my-5">
-  <h2>Download Pet Check AI Beta</h2>
-  <p class="lead">Get early access to new features and help shape the future of pet health technology</p>
+  <h2>Download Pet Check AI</h2>
+  <p class="lead">Get instant AI-powered health assessments for your furry family members</p>
   <div class="d-flex justify-content-center align-items-center gap-3 mb-4">
-    {{< downloadappbeta >}}
-    {{< betastamp >}}
+    {{< downloadapp >}}
   </div>
   
   <div class="mt-4">

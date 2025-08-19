@@ -6,7 +6,7 @@ banner:
   image : "/PetCheck-Web.png"
   button:
     enable : false
-    label : "Télécharger la Bêta"
+    label : "Télécharger"
     link : "#download"
   download_section : true
 
@@ -88,8 +88,7 @@ call_to_action:
 <!-- Banner Download Section -->
 <div class="text-center mt-4">
   <div class="d-flex justify-content-center align-items-center gap-3 mb-4 flex-wrap">
-    {{< downloadappbeta >}}
-    {{< betastamp >}}
+    {{< downloadapp >}}
   </div>
 </div>
 
@@ -100,19 +99,17 @@ call_to_action:
       <h2 class="mb-4">Prêt à devenir un défenseur plus informé de votre animal ?</h2>
       <p class="lead mb-4">Rejoignez des milliers de propriétaires d'animaux qui font confiance à PetCheck AI pour des conseils de santé fiables. Téléchargez maintenant et donnez à votre compagnon à quatre pattes les soins qu'il mérite.</p>
       <div class="d-flex justify-content-center align-items-center gap-3 mb-4 flex-wrap">
-        {{< downloadappbeta >}}
-        {{< betastamp >}}
+        {{< downloadapp >}}
       </div>
     </div>
   </div>
 </div>
 
 <div id="download" class="text-center my-5">
-  <h2>Télécharger Pet Check AI Bêta</h2>
-  <p class="lead">Obtenez un accès anticipé aux nouvelles fonctionnalités et aidez à façonner l'avenir de la technologie de santé pour animaux</p>
+  <h2>Télécharger Pet Check AI</h2>
+  <p class="lead">Obtenez des évaluations de santé instantanées optimisées par l'IA pour vos compagnons à quatre pattes</p>
   <div class="d-flex justify-content-center align-items-center gap-3 mb-4">
-    {{< downloadappbeta >}}
-    {{< betastamp >}}
+    {{< downloadapp >}}
   </div>
   
   <div class="mt-4">
