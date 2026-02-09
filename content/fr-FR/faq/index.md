@@ -37,6 +37,15 @@ L'application est actuellement disponible en anglais (États-Unis) et en frança
 ### Quel est le poids de chaque information pour les suggestions ?
 Nous modifions constamment l'algorithme afin de garantir un résultat optimal ; nous ne partageons donc pas ces informations pour le moment.
 
+### Qu'est-ce que l'évaluation photo ?
+L'évaluation photo vous permet de prendre ou de télécharger une photo du problème de santé visible de votre animal — comme un problème de peau, une plaie ou une éruption cutanée — et de recevoir une évaluation par IA. Elle complète le vérificateur de symptômes textuels en ajoutant une analyse visuelle.
+
+### Combien d'évaluations photo puis-je utiliser ?
+Les utilisateurs inscrits bénéficient d'un nombre limité d'évaluations photo gratuites. Les abonnés Premium ont un accès illimité. Les utilisateurs anonymes doivent créer un compte pour utiliser cette fonctionnalité.
+
+### Quels types de photos fonctionnent le mieux ?
+Les photos claires, bien éclairées et centrées sur la zone concernée fonctionnent le mieux. Assurez-vous que la zone affectée soit visible et nette. Vous pouvez prendre une nouvelle photo ou en télécharger une depuis votre photothèque.
+
 ### Mes données sont-elles sécurisées ?
 Oui, toutes les données sont chiffrées au repos et en transit.
 

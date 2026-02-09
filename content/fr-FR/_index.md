@@ -45,6 +45,11 @@ feature:
       icon : "fas fa-history"
       content : "Conservez des dossiers détaillés du parcours de santé de votre animal pour identifier les tendances et suivre les améliorations"
 
+    # feature item loop
+    - name : "Évaluation Photo de Santé"
+      icon : "fas fa-camera"
+      content : "Téléchargez ou prenez une photo de l'état de la peau, de la plaie ou du problème de votre animal pour une évaluation visuelle instantanée par IA"
+
 ######################### Service #####################
 service:
   enable : true
@@ -182,6 +187,16 @@ call_to_action:
         <li><i class="fas fa-check text-success"></i> Sessions d'évaluation passées</li>
         <li><i class="fas fa-check text-success"></i> Suivi des symptômes dans le temps</li>
         <li><i class="fas fa-check text-success"></i> Export des données pour les visites vétérinaires</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-md-6">
+      <h4><i class="fas fa-camera"></i> Évaluation Photo</h4>
+      <ul class="list-unstyled">
+        <li><i class="fas fa-check text-success"></i> Téléchargez ou prenez une photo de l'état de votre animal</li>
+        <li><i class="fas fa-check text-success"></i> Analyse visuelle par IA des problèmes de peau, plaies et plus</li>
+        <li><i class="fas fa-check text-success"></i> Complète le vérificateur de symptômes textuels</li>
       </ul>
     </div>
   </div>

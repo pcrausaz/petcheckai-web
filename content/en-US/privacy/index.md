@@ -10,7 +10,7 @@ Welcome to *Pet Check AI*, operated by [**petcheckai.com**](http://petcheckai.co
 
 ## 1. Information We Collect
    - **Authentication Data:** Username, email, and password for account creation and authentication.
-   - **Pet Information:** Pet name, photo, breed, date of birth, weight, sex, microchip, medical information, general pet health questions
+   - **Pet Information:** Pet name, photo, breed, date of birth, weight, sex, microchip, medical information, general pet health questions, and photos submitted for health assessment
    
     
 ## 2. How We Use Your Information

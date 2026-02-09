@@ -45,6 +45,11 @@ feature:
       icon : "fas fa-history"
       content : "Keep detailed records of your pet's health journey to spot patterns and track improvements"
 
+    # feature item loop
+    - name : "Photo Health Assessment"
+      icon : "fas fa-camera"
+      content : "Upload or snap a photo of your pet's skin condition, wound, or concern for an instant AI-powered visual assessment"
+
 ######################### Service #####################
 service:
   enable : true
@@ -182,6 +187,16 @@ call_to_action:
         <li><i class="fas fa-check text-success"></i> Past assessment sessions</li>
         <li><i class="fas fa-check text-success"></i> Track symptoms over time</li>
         <li><i class="fas fa-check text-success"></i> Export data for vet visits</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-md-6">
+      <h4><i class="fas fa-camera"></i> Photo Assessment</h4>
+      <ul class="list-unstyled">
+        <li><i class="fas fa-check text-success"></i> Upload or take a photo of your pet's condition</li>
+        <li><i class="fas fa-check text-success"></i> AI-powered visual analysis of skin issues, wounds, and more</li>
+        <li><i class="fas fa-check text-success"></i> Complements the text-based symptom checker</li>
       </ul>
     </div>
   </div>

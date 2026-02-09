@@ -10,7 +10,7 @@ Bienvenue sur *Pet Check AI*, exploité par [**petcheckai.com**](http://petcheck
 
 ## 1. Informations collectées
 - **Données d'authentification** : nom d'utilisateur, adresse e-mail et mot de passe pour la création et l'authentification du compte.
-- **Informations sur l'animal** : nom, photo, race, date de naissance, poids, sexe, puce électronique, informations médicales, questions générales sur la santé de l'animal.
+- **Informations sur l'animal** : nom, photo, race, date de naissance, poids, sexe, puce électronique, informations médicales, questions générales sur la santé de l'animal, et photos soumises pour l'évaluation de santé.
 
 ## 2. Utilisation de vos informations
 Nous utilisons les données collectées pour améliorer l'évaluation de l'IA.

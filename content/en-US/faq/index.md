@@ -39,6 +39,15 @@ The application today focuses on English (US) and French(FR). Additional languag
 ### What is the weight of each piece of information for suggestions
 We are always modifying the algorithm to ensure the best result, so we are not sharing that information at this time.
 
+### What is Photo Assessment?
+Photo Assessment lets you take or upload a photo of your pet's visible health concern — such as a skin condition, wound, or rash — and receive an AI-powered assessment. It complements the text-based symptom checker by adding visual analysis.
+
+### How many Photo Assessments can I use?
+Registered users get a limited number of free photo assessments. Premium subscribers get unlimited access. Anonymous users need to create an account to use this feature.
+
+### What types of photos work best?
+Clear, well-lit photos focused on the area of concern work best. Make sure the affected area is visible and in focus. You can either take a new photo or upload one from your photo library.
+
 ### Is my data secure?
 Yes, all data is encrypted at rest and in transit.
 
