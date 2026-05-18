@@ -2,6 +2,8 @@
 baseURL = "https://petcheckai.com/"
 title = "Pet Check AI"
 theme = "bigspring"
+defaultContentLanguage = "en-US"
+defaultContentLanguageInSubdir = false
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "America/Chicago"
 # post pagination
@@ -178,7 +180,7 @@ link = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.mi
 [[languages.fr-FR.menu.main]]
   identifier = "home"
   name = "Acceuil"
-  url = "/fr-FR"
+  url = "/fr-fr"
   weight = 1
 
 [[languages.en-US.menu.main]]
@@ -191,7 +193,7 @@ link = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.mi
 [[languages.fr-FR.menu.main]]
   identifier = "faq"
   name = "FAQ"
-  url = "/fr-FR/faq"
+  url = "/fr-fr/faq"
   weight = 2
 
 
@@ -204,7 +206,7 @@ link = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.mi
 [[languages.fr-FR.menu.main]]
   identifier = "support"
   name = "Assistance"
-  url = "/fr-FR/support"
+  url = "/fr-fr/support"
   weight = 3
 
 [[languages.en-US.menu.main]]
@@ -216,7 +218,7 @@ link = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.mi
 [[languages.fr-FR.menu.main]]
   identifier = "privacy"
   name = "Confidentialité"
-  url = "/fr-FR/privacy"
+  url = "/fr-fr/privacy"
   weight = 4
 
 [[languages.en-US.menu.main]]
@@ -228,5 +230,5 @@ link = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.mi
 [[languages.fr-FR.menu.main]]
   identifier = "eula"
   name = "CLUF"
-  url = "/fr-FR/eula"
+  url = "/fr-fr/eula"
   weight = 5

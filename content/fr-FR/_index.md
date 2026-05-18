@@ -61,7 +61,7 @@ service:
       button:
         enable : true
         label : "En Savoir Plus"
-        link : "/fr-FR/faq"
+        link : "/fr-fr/faq"
         
     # service item loop
     - title : "Conseils Rapides pour les Propriétaires Expérimentés"
@@ -70,7 +70,7 @@ service:
       button:
         enable : true
         label : "En Savoir Plus"
-        link : "/fr-FR/faq"
+        link : "/fr-fr/faq"
         
     # service item loop
     - title : "Conseils de Santé Immédiats pour les Familles Occupées"
@@ -79,7 +79,7 @@ service:
       button:
         enable : true
         label : "En Savoir Plus"
-        link : "/fr-FR/faq"
+        link : "/fr-fr/faq"
 
 ##################### Call to action #####################
 call_to_action:
@@ -204,5 +204,5 @@ call_to_action:
 
 <div class="container my-5 text-center">
   <h2>Besoin d'Aide ou Avez-vous une Suggestion ?</h2>
-  <p class="lead">Nous sommes là pour vous aider ! Consultez notre <a href="/fr-FR/support" class="text-decoration-none">page de support</a> pour obtenir nos coordonnées.</p>
+  <p class="lead">Nous sommes là pour vous aider ! Consultez notre <a href="/fr-fr/support" class="text-decoration-none">page de support</a> pour obtenir nos coordonnées.</p>
 </div>

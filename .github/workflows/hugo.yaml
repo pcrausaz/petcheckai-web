@@ -70,6 +70,10 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
+          # Remove Hugo's auto-generated noindex redirect at /en-us/.
+          # The canonical English home is /. Keep en-us/sitemap.xml so the
+          # sitemap index stays consistent.
+          rm -f public/en-us/index.html
       - name: Cache Save
         id: cache-save
         uses: actions/cache/save@v4
