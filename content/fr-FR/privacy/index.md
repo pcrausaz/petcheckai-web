@@ -19,7 +19,7 @@ Nous utilisons les données collectées pour améliorer l'évaluation de l'IA.
 Nous ne partageons ni ne vendons les données des utilisateurs à des tiers.
 
 ## 4. Contrôle utilisateur et suppression de compte
-Les utilisateurs peuvent supprimer leur compte à tout moment. À l'exception des informations d'authentification, du nom d'utilisateur, des informations de base sur l'animal et des questions de santé, toutes les autres données fournies sont facultatives.
+Les utilisateurs peuvent supprimer leur compte à tout moment directement depuis l'application (paramètres du profil → « Supprimer le compte »), ou en demandant la suppression par e-mail auprès de notre équipe d'assistance à l'adresse [support@petcheckai.com](mailto:support@petcheckai.com). À l'exception des informations d'authentification, du nom d'utilisateur, des informations de base sur l'animal et des questions de santé, toutes les autres données fournies sont facultatives.
 
 ## 5. Sécurité des données
 Toutes les données sont cryptées au repos et en transit. Notre backend garantit un stockage et une gestion sécurisés des données.

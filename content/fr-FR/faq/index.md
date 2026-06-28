@@ -9,7 +9,7 @@ title = 'FAQ'
 ## FAQ générale
 
 ### Pet Check AI est-il disponible ?
-Oui ! Pet Check AI a été publié et peut être téléchargé depuis l'App Store d'Apple.
+Oui ! Pet Check AI est disponible sur l'App Store d'Apple (iOS et iPadOS) ainsi que sur Google Play (Android).
 {{< downloadapp >}}
 Vous pouvez également utiliser la version bêta pour avoir accès aux nouvelles fonctionnalités en avant-première.
 
@@ -20,13 +20,13 @@ L'application vous permet de créer un utilisateur dans les paramètres de profi
 Créez un compte et souscrivez un abonnement premium.
 
 ### Quelles plateformes l'application est-elle compatible ?
-Nous prenons actuellement en charge iOS et iPad. Elle fonctionne parfaitement sur les deux plateformes.
+Nous prenons en charge iOS, iPadOS et Android. Elle fonctionne parfaitement sur toutes ces plateformes.
 
 ### Quel fournisseur d'identité l'application prend-elle en charge ?
 L'application permet de se connecter avec Apple et Google.
 
-### Quand le système d'exploitation Android sera-t-il pris en charge ?
-Nous ne le savons pas encore. Nous nous concentrerons d'abord sur l'optimisation de l'application pour la plateforme Apple avant de l'étendre aux autres plateformes.
+### Android est-il pris en charge ?
+Oui ! Android est désormais pris en charge et Pet Check AI est disponible sur Google Play. L'application est également disponible sur iOS et iPadOS via l'App Store d'Apple.
 
 ### L'application est-elle compatible avec le mode sombre ?
 Oui, l'application est parfaitement compatible avec le mode sombre.
@@ -53,7 +53,7 @@ Oui, toutes les données sont chiffrées au repos et en transit.
 Pour de meilleurs résultats, vous devez autoriser l'application à accéder aux données de localisation. En partageant votre localisation avec l'application, vous nous permettons de vous montrer les lieux à proximité et de vous y diriger. Nous ne stockons pas les informations de localisation de l'utilisateur.
 
 ### Puis-je supprimer mon compte ?
-Accédez aux paramètres du profil et sélectionnez « Supprimer le compte ».
+Oui. Accédez aux paramètres du profil et sélectionnez « Supprimer le compte ». Vous pouvez également demander la suppression de votre compte en écrivant à notre équipe d'assistance à l'adresse [support@petcheckai.com](mailto:support@petcheckai.com).
 
 ### J'ai d'autres questions.
 Pour toute autre question, nous vous encourageons à contacter notre équipe [**support**](mailto:support@petcheckai.com) en utilisant les informations de la [**page d'assistance**](http://petcheckai.com/support).

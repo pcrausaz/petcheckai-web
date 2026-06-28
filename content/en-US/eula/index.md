@@ -6,8 +6,14 @@ title = 'EULA'
 
 # End User License Agreement (EULA)
 
-## 1. Term of Use
+## 1. Terms of Use
+Pet Check AI is available on both iOS/iPadOS and Android. The applicable terms of use depend on the platform from which you obtained the app.
+
+### iOS / iPadOS version
 EULA: [https://www.apple.com/legal/internet-services/itunes/dev/stdeula/](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
+
+### Android version
+EULA: [https://play.google.com/about/play-terms/](https://play.google.com/about/play-terms/)
 
 
 ## 10. Contact Information

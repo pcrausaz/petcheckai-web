@@ -46,6 +46,32 @@ body {
     margin: 20px auto;
 }
 
+/* App download badges (App Store + Google Play) */
+.app-download-badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.app-download-badges a {
+    display: inline-block;
+    line-height: 0;
+    transition: opacity 0.2s ease;
+}
+
+.app-download-badges a:hover {
+    opacity: 0.8;
+}
+
+.app-download-badges img {
+    height: 50px;
+    width: auto;
+    display: block;
+}
+
 /* Beta stamp styles */
 .stamp {
     display: inline-block;

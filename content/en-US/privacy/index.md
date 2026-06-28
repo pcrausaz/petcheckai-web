@@ -20,7 +20,7 @@ We use the collected data to to improve the AI assesment.
 We do not share or sell user data to third parties.
 
 ## 4. User Control & Account Deletion
-Users can delete their account at any time. Except for authentication information and username and basic pet information and health query, all other provided data is optional.
+Users can delete their account at any time directly from the app (profile settings → "Delete Account"), or by requesting deletion via email to our support team at [support@petcheckai.com](mailto:support@petcheckai.com). Except for authentication information and username and basic pet information and health query, all other provided data is optional.
 
 ## 5. Data Security
 All data is encrypted at rest and in transit. Our backend ensures a secure data storage and management.

@@ -11,7 +11,7 @@ title = 'FAQ'
 ## General FAQ
 
 ### Is Pet Check AI released?
-Yes! Pet Check AI has been released and can be downloaded from the Apple App Store.
+Yes! Pet Check AI has been released and is available on both the Apple App Store (iOS and iPadOS) and Google Play (Android).
 {{< downloadapp >}}
 You can also use the Beta version to get early access to new features.
 
@@ -22,13 +22,13 @@ The app gives you the option to create a user in the profile settings (tap the a
 Create an account and purchase a premium subscriptions.
 
 ### What platform does the application support?
-Currently we support iOS and iPad OS. It runs great on both platform.
+We support iOS, iPadOS, and Android. It runs great on all of them.
 
 ### What identity provider does the application support?
 The application  allows for 'Sign in with Apple' and 'Sign in with Google'.
 
-### When will Android OS be supported?
-This is not known at this time, what is known is that we will first focus on making the Apple platform application awesome before we extend to other platforms.
+### Is Android supported?
+Yes! Android is now supported and Pet Check AI is available on Google Play. It is also available on iOS and iPadOS via the Apple App Store.
 
 ### Does the app supports Dark Mode?
 Yes, the application looks great with Dark Mode.
@@ -55,7 +55,7 @@ Yes, all data is encrypted at rest and in transit.
 For better results, you should authorize the application to get access to the location data. By sharing your location with the app, you ensure we can show you place around your location and direct you to it. We do not store location information on the user.
 
 ### Can I delete my account
-Go to profile settings and select "Delete Account.
+Yes. Go to profile settings and select "Delete Account". You can also request account deletion by emailing our support team at [support@petcheckai.com](mailto:support@petcheckai.com).
 
 ### I have more questions
 For all other questions, we encourage your to contact our [**support**](mailto:support@petcheckai.com) team  using the information in the[**support page**](http://petcheckai.com/support).
