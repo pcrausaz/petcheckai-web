@@ -65,10 +65,12 @@ jobs:
         run: git config core.quotepath false
       - name: Build with Hugo
         run: |
+          # baseURL comes from hugo.toml (https://petcheckai.com/). Do not use
+          # steps.pages.outputs.base_url here: it reflects the Pages
+          # "Enforce HTTPS" setting and produced http:// URLs in the sitemap.
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
           # Remove Hugo's auto-generated noindex redirect at /en-us/.
           # The canonical English home is /. Keep en-us/sitemap.xml so the

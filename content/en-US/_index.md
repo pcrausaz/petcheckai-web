@@ -1,8 +1,10 @@
 ---
+meta_title : "Pet Check AI – AI Symptom Checker for Dogs & Cats"
+description : "AI-powered health assessments for dogs and cats. Check your pet's symptoms 24/7, get instant guidance, and know when it's time to see the vet."
 ####################### Banner #########################
 banner:
   title : "Your trusted companion for <br> pet health decisions"
-  content : "Pet Check AI empowers pet parents with instant, AI-driven health assessments when you're concerned about your furry family member. Whether it's 3 AM and your cat is acting strange, or you're unsure if that new behavior warrants a vet visit, Pet Check AI is here to help."
+  content : "Pet Check AI empowers pet parents with instant, AI-driven health assessments when you're concerned about your furry family member. Whether it's 3 AM and your cat is acting strange, or your dog's new behavior has you wondering if it warrants a vet visit, Pet Check AI is here to help."
   image : "/PetCheck-Web.png"
   button:
     enable : false
@@ -18,7 +20,7 @@ feature:
     # feature item loop
     - name : "Smart Health Assessments"
       icon : "fas fa-stethoscope"
-      content : "Get personalized health evaluations through our intelligent symptom checker, powered by veterinary expertise and advanced AI"
+      content : "Get personalized health evaluations for your dog or cat through our intelligent symptom checker, powered by veterinary expertise and advanced AI"
       
     # feature item loop
     - name : "Available 24/7"
@@ -56,7 +58,7 @@ service:
   service_item:
     # service item loop
     - title : "Perfect for New Pet Parents"
-      content : "Learning to recognize health concerns in your new furry family member? Pet Check AI helps you understand what's normal and what needs attention, building your confidence as a pet parent."
+      content : "Learning to recognize health concerns in your new puppy or kitten? Pet Check AI helps you understand what's normal and what needs attention, building your confidence as a pet parent."
       images : [""]
       button:
         enable : true
@@ -65,7 +67,7 @@ service:
         
     # service item loop
     - title : "Quick Guidance for Experienced Owners"
-      content : "Even experienced pet owners encounter new situations. Get instant, reliable guidance on unusual symptoms and behaviors to make informed decisions about your pet's care."
+      content : "Even experienced dog and cat owners encounter new situations. Get instant, reliable guidance on unusual symptoms and behaviors to make informed decisions about your pet's care."
       images : [""]
       button:
         enable : true
@@ -112,7 +114,7 @@ call_to_action:
 
 <div id="download" class="text-center my-5">
   <h2>Download Pet Check AI</h2>
-  <p class="lead">Get instant AI-powered health assessments for your furry family members</p>
+  <p class="lead">Get instant AI-powered health assessments for your dog, cat, or other furry family members</p>
   <div class="d-flex justify-content-center align-items-center gap-3 mb-4">
     {{< downloadapp >}}
   </div>
@@ -176,7 +178,7 @@ call_to_action:
     <div class="col-md-6">
       <h4><i class="fas fa-search"></i> Symptom Checker</h4>
       <ul class="list-unstyled">
-        <li><i class="fas fa-check text-success"></i> Free-form assessment system</li>
+        <li><i class="fas fa-check text-success"></i> Free-form assessment system for dogs and cats</li>
         <li><i class="fas fa-check text-success"></i> Guided questioning for accuracy</li>
         <li><i class="fas fa-check text-success"></i> Contextual pet information integration</li>
       </ul>

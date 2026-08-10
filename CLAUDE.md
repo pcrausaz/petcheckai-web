@@ -82,7 +82,6 @@ Created to support Bigspring theme requirements:
 
 ### Known Issues & TODO
 - [ ] Re-enable Font Awesome plugins when dependencies are available
-- [ ] Update `/layouts/shortcodes/downloadapp.html:11` with actual App Store ID (replace `idXXXXXXXXXX`)
 - [ ] Consider adding Bootstrap dependencies if advanced styling is needed
 - [ ] Test all shortcodes in production environment
 

@@ -1,8 +1,10 @@
 ---
+meta_title : "Pet Check AI – Vérificateur de Symptômes IA pour Chiens et Chats"
+description : "Évaluations de santé par IA pour chiens et chats. Vérifiez les symptômes de votre animal 24h/24, obtenez des conseils instantanés et sachez quand consulter le vétérinaire."
 ####################### Banner #########################
 banner:
   title : "Votre compagnon de confiance pour <br> les décisions de santé de votre animal"
-  content : "Pet Check AI permet aux propriétaires d'animaux de compagnie de bénéficier d'évaluations de santé instantanées, basées sur l'IA, lorsque vous vous inquiétez pour votre compagnon à quatre pattes. Qu'il soit 3 heures du matin et que votre chat se comporte bizarrement, ou que vous ayez des doutes quant à la nécessité d'une visite chez le vétérinaire, Pet Check AI est là pour vous aider."
+  content : "Pet Check AI permet aux propriétaires d'animaux de compagnie de bénéficier d'évaluations de santé instantanées, basées sur l'IA, lorsque vous vous inquiétez pour votre compagnon à quatre pattes. Qu'il soit 3 heures du matin et que votre chat se comporte bizarrement, ou que le nouveau comportement de votre chien vous fasse douter de la nécessité d'une visite chez le vétérinaire, Pet Check AI est là pour vous aider."
   image : "/PetCheck-Web.png"
   button:
     enable : false
@@ -18,7 +20,7 @@ feature:
     # feature item loop
     - name : "Évaluations de Santé Intelligentes"
       icon : "fas fa-stethoscope"
-      content : "Obtenez des évaluations de santé personnalisées grâce à notre outil intelligent de vérification des symptômes, optimisé par l'expertise vétérinaire et une IA avancée"
+      content : "Obtenez des évaluations de santé personnalisées pour votre chien ou votre chat grâce à notre outil intelligent de vérification des symptômes, optimisé par l'expertise vétérinaire et une IA avancée"
       
     # feature item loop
     - name : "Disponible 24h/24 7j/7"
@@ -56,7 +58,7 @@ service:
   service_item:
     # service item loop
     - title : "Parfait pour les Nouveaux Propriétaires d'Animaux"
-      content : "Vous apprenez à reconnaître les problèmes de santé chez votre nouveau compagnon à quatre pattes ? Pet Check AI vous aide à comprendre ce qui est normal et ce qui nécessite une attention, renforçant votre confiance en tant que propriétaire d'animal."
+      content : "Vous apprenez à reconnaître les problèmes de santé chez votre chiot ou votre chaton ? Pet Check AI vous aide à comprendre ce qui est normal et ce qui nécessite une attention, renforçant votre confiance en tant que propriétaire d'animal."
       images : [""]
       button:
         enable : true
@@ -65,7 +67,7 @@ service:
         
     # service item loop
     - title : "Conseils Rapides pour les Propriétaires Expérimentés"
-      content : "Même les propriétaires d'animaux expérimentés rencontrent de nouvelles situations. Obtenez des conseils instantanés et fiables sur les symptômes et comportements inhabituels pour prendre des décisions éclairées concernant les soins de votre animal."
+      content : "Même les propriétaires de chiens et de chats expérimentés rencontrent de nouvelles situations. Obtenez des conseils instantanés et fiables sur les symptômes et comportements inhabituels pour prendre des décisions éclairées concernant les soins de votre animal."
       images : [""]
       button:
         enable : true
@@ -112,7 +114,7 @@ call_to_action:
 
 <div id="download" class="text-center my-5">
   <h2>Télécharger Pet Check AI</h2>
-  <p class="lead">Obtenez des évaluations de santé instantanées optimisées par l'IA pour vos compagnons à quatre pattes</p>
+  <p class="lead">Obtenez des évaluations de santé instantanées optimisées par l'IA pour votre chien, votre chat ou vos autres compagnons à quatre pattes</p>
   <div class="d-flex justify-content-center align-items-center gap-3 mb-4">
     {{< downloadapp >}}
   </div>
@@ -176,7 +178,7 @@ call_to_action:
     <div class="col-md-6">
       <h4><i class="fas fa-search"></i> Vérificateur de Symptômes</h4>
       <ul class="list-unstyled">
-        <li><i class="fas fa-check text-success"></i> Système d'évaluation en forme libre</li>
+        <li><i class="fas fa-check text-success"></i> Système d'évaluation en forme libre pour chiens et chats</li>
         <li><i class="fas fa-check text-success"></i> Questions guidées pour plus de précision</li>
         <li><i class="fas fa-check text-success"></i> Intégration d'informations contextuelles sur l'animal</li>
       </ul>

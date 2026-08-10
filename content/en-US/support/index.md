@@ -2,6 +2,8 @@
 date = '2025-05-22T21:48:21-05:00'
 draft = false
 title = 'Support'
+meta_title = 'Pet Check AI Support – Dog & Cat Health App Help'
+description = 'Contact the Pet Check AI support team for help with the AI-powered health app for dogs and cats.'
 +++
 
 # Support
