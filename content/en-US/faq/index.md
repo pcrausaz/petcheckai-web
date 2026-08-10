@@ -2,6 +2,8 @@
 date = '2025-05-22T21:48:13-05:00'
 draft = false
 title = 'FAQ'
+meta_title = 'Pet Check AI FAQ – Dog & Cat Health App Questions'
+description = 'Answers to common questions about Pet Check AI, the AI symptom checker and photo assessment app for dogs and cats on iOS and Android.'
 +++
 
 # Frequently Asked Questions (FAQ)
@@ -14,6 +16,9 @@ title = 'FAQ'
 Yes! Pet Check AI has been released and is available on both the Apple App Store (iOS and iPadOS) and Google Play (Android).
 {{< downloadapp >}}
 You can also use the Beta version to get early access to new features.
+
+### What animals does Pet Check AI support?
+Pet Check AI is designed for dogs and cats — from puppies and kittens to senior pets. You can create a profile for each dog or cat in your household and run AI symptom checks or photo assessments for any of them.
 
 ### How do I get an account
 The app gives you the option to create a user in the profile settings (tap the avatar icon), using your email address. It gives you the option to register in the profile settings.
