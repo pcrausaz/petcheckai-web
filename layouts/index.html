@@ -17,25 +17,27 @@
             <img class="phone__shot" src="{{ site.Params.hero_screenshot | relURL }}" alt="{{ site.Title }}" loading="eager">
           {{ else }}{{ with .demo }}
             <div class="demo">
-              <div class="demo__head">
-                <div class="demo__pet">
-                  <span class="demo__avatar"></span>
-                  <span class="demo__petname">{{ .pet }}<small>{{ .meta }}</small></span>
-                </div>
-                <span class="demo__history">{{ .history }}</span>
+              <div class="demo__nav">
+                <span class="demo__back" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></span>
+                <span class="demo__navtitle">{{ .screen_title }}</span>
               </div>
-              <div class="demo__thread">
-                {{ range .messages }}
-                <p class="demo__msg demo__msg--{{ .from }}">{{ .text }}</p>
-                {{ end }}
-                {{ with .verdict }}
-                <div class="demo__verdict">
-                  <strong>{{ .title }}</strong>
-                  <span>{{ .text }}</span>
-                  <small>{{ i18n "ai_guidance" }}</small>
-                </div>
-                {{ end }}
+              <div class="demo__card demo__petcard">
+                <span class="demo__avatar" aria-hidden="true">{{ partial "icon.html" "paw" }}</span>
+                <span class="demo__petname">{{ .pet }}</span>
+                <span class="demo__petmeta">{{ .meta }}</span>
+                <span class="demo__petdate">{{ .date }}</span>
               </div>
+              <div class="demo__concern demo__concern--{{ .level_color | default "green" }}">
+                <span class="demo__concernicon" aria-hidden="true">{{ partial "icon.html" "check" }}</span>
+                <span class="demo__concerntext"><strong>{{ .level }}</strong><span>{{ .level_sub }}</span></span>
+                <span class="demo__confidence"><span>{{ .confidence_label }}</span><strong>{{ .confidence }}</strong></span>
+              </div>
+              <div class="demo__card demo__assessment">
+                <span class="demo__cardtitle">{{ .assessment_title }}</span>
+                <span class="demo__cardlabel">{{ .assessment_label }}</span>
+                <p class="demo__cardtext">{{ .assessment_text }}</p>
+              </div>
+              <span class="demo__fab" aria-hidden="true">{{ partial "icon.html" "paw" }}</span>
             </div>
           {{ end }}{{ end }}
         </div>

@@ -9,19 +9,18 @@ banner:
   content : "Pet Check AI vous donne une évaluation de santé instantanée, basée sur l'IA, pour votre chien ou votre chat, et vous dit si cela peut attendre demain matin ou s'il faut consulter un vétérinaire maintenant."
   # Écran de téléphone illustratif. Remplacé par l'application réelle lorsque params.hero_screenshot est défini dans hugo.toml.
   demo:
+    screen_title : "Détails de l'évaluation"
     pet : "Luna"
-    meta : "Chat · 7 ans"
-    history : "Historique"
-    messages:
-      - from : "me"
-        text : "Elle se cache sans arrêt et n'a pas utilisé sa litière depuis hier."
-      - from : "ai"
-        text : "Force-t-elle ou miaule-t-elle de douleur quand elle essaie d'uriner ? Des vomissements ?"
-      - from : "me"
-        text : "Oui, elle a forcé et a crié une fois."
-    verdict:
-      title : "Urgent : consultez un vétérinaire maintenant"
-      text : "Forcer sans produire d'urine peut indiquer une obstruction urinaire, une urgence chez le chat."
+    meta : "Chat • Tonkinois • 7 a 2 m"
+    date : "Évaluation d'aujourd'hui à 3 h 12"
+    level : "Risque faible"
+    level_sub : "Poursuivre les soins habituels"
+    level_color : "green"      # green | amber | red
+    confidence_label : "Confiance"
+    confidence : "82 %"
+    assessment_title : "Évaluation"
+    assessment_label : "Analyse visuelle :"
+    assessment_text : "L'image montre une photo rapprochée du pelage et de la peau d'un chat. Le pelage semble sain, sans rougeur, lésion, perte de poils ni parasite visibles. Surveillez la zone pendant quelques jours et reprenez une photo si quelque chose change."
   callouts:
     - icon : "camera"
       title : "Évaluation photo"

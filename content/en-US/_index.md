@@ -9,19 +9,18 @@ banner:
   content : "Pet Check AI gives you an instant, AI-driven health assessment for your dog or cat, and tells you whether it can wait until morning or needs a vet now."
   # Illustrative phone screen. Replaced by the real app when params.hero_screenshot is set in hugo.toml.
   demo:
+    screen_title : "Assessment Details"
     pet : "Luna"
-    meta : "Cat · 7 years"
-    history : "History"
-    messages:
-      - from : "me"
-        text : "She keeps hiding and hasn't used the litter box since yesterday."
-      - from : "ai"
-        text : "Is she straining or crying when she tries to go? Any vomiting?"
-      - from : "me"
-        text : "Yes, she was straining and cried once."
-    verdict:
-      title : "Urgent: see a vet now"
-      text : "Straining without producing urine can be a urinary blockage, which is an emergency in cats."
+    meta : "Cat • Tonkinese • 7y 2m"
+    date : "Assessment from today at 3:12 AM"
+    level : "Low Concern"
+    level_sub : "Continue Normal Care"
+    level_color : "green"      # green | amber | red
+    confidence_label : "Confidence"
+    confidence : "82%"
+    assessment_title : "Assessment"
+    assessment_label : "Visual analysis:"
+    assessment_text : "The image shows a close-up photograph of a cat's fur and skin. The coat appears healthy, with no visible redness, lesions, hair loss or parasites. Monitor the area over the next few days and take a new photo if anything changes."
   callouts:
     - icon : "camera"
       title : "Photo assessment"
