@@ -1,0 +1,19 @@
+{{- /* Inline stroke icons keyed by name. Usage: partial "icon.html" "stethoscope" */ -}}
+{{- $n := . -}}
+<svg class="icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+{{- if eq $n "stethoscope" -}}<path d="M5 3v6a5 5 0 0 0 10 0V3"/><path d="M10 14v3a4 4 0 0 0 8 0v-1"/><circle cx="18" cy="14" r="2"/>
+{{- else if eq $n "clock" -}}<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>
+{{- else if eq $n "mobile" -}}<rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/>
+{{- else if eq $n "shield" -}}<path d="M12 3l7 3v6c0 5-3.5 8-7 9-3.5-1-7-4-7-9V6z"/><path d="M9 12l2 2 4-4"/>
+{{- else if eq $n "vet" -}}<circle cx="9" cy="8" r="4"/><path d="M3 21v-2a5 5 0 0 1 5-5h2"/><path d="M16 11v6"/><path d="M13 14h6"/>
+{{- else if eq $n "history" -}}<path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/><path d="M12 7v5l3 2"/>
+{{- else if eq $n "camera" -}}<path d="M4 8V6a2 2 0 0 1 2-2h2"/><path d="M16 4h2a2 2 0 0 1 2 2v2"/><path d="M20 16v2a2 2 0 0 1-2 2h-2"/><path d="M8 20H6a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="3"/>
+{{- else if eq $n "users" -}}<circle cx="9" cy="8" r="4"/><path d="M3 21v-2a5 5 0 0 1 5-5h2a5 5 0 0 1 5 5v2"/><path d="M16 4a4 4 0 0 1 0 8"/><path d="M21 21v-2a5 5 0 0 0-3-4.6"/>
+{{- else if eq $n "paw" -}}<circle cx="7" cy="8" r="2"/><circle cx="12" cy="5" r="2"/><circle cx="17" cy="8" r="2"/><path d="M12 11c-3 0-6 3-6 6a3 3 0 0 0 4 3l2-1 2 1a3 3 0 0 0 4-3c0-3-3-6-6-6z"/>
+{{- else if eq $n "search" -}}<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>
+{{- else if eq $n "warning" -}}<path d="M12 3l10 18H2z"/><path d="M12 10v4"/><path d="M12 17.5v.5"/>
+{{- else if eq $n "check" -}}<path d="M5 12l4 4L19 6"/>
+{{- else if eq $n "arrow" -}}<path d="M5 12h14"/><path d="M13 6l6 6-6 6"/>
+{{- else -}}<circle cx="12" cy="12" r="9"/>
+{{- end -}}
+</svg>

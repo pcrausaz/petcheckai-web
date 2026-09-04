@@ -1,0 +1,9 @@
+<!-- fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Manrope:wght@400;500;600;700&display=swap">
+
+<!-- stylesheet -->
+{{ $css := resources.Get "scss/style.scss" | toCSS (dict "outputStyle" "compressed") }}
+{{ if hugo.IsProduction }}{{ $css = $css | fingerprint "sha256" }}{{ end }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $css.Data.Integrity }}"{{ end }}>

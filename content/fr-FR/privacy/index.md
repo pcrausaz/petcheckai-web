@@ -2,9 +2,8 @@
 date = '2025-05-22T21:48:32-05:00'
 draft = false
 title = 'Privacy'
+heading = 'Politique de Confidentialité'
 +++
-
-# Politique de Confidentialité
 
 Bienvenue sur *Pet Check AI*, exploité par [**petcheckai.com**](http://petcheckai.com). Votre vie privée est importante pour nous.
 

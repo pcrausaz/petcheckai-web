@@ -2,13 +2,10 @@
 date = '2025-05-22T21:48:13-05:00'
 draft = false
 title = 'FAQ'
+heading = 'Frequently Asked Questions (FAQ)'
 meta_title = 'Pet Check AI FAQ – Dog & Cat Health App Questions'
 description = 'Answers to common questions about Pet Check AI, the AI symptom checker and photo assessment app for dogs and cats on iOS and Android.'
 +++
-
-# Frequently Asked Questions (FAQ)
-
-
 
 ## General FAQ
 

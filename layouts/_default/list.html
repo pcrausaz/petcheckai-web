@@ -1,0 +1,5 @@
+{{ define "main" }}
+<section class="page-header"><div class="wrap"><h1 class="page-header__title">{{ .Title }}</h1></div></section>
+<section class="section page-body"><div class="wrap page-body__grid page-body__grid--single"><article class="content">{{ .Content }}
+<ul>{{ range .Pages }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul></article></div></section>
+{{ end }}

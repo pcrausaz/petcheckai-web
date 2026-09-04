@@ -2,9 +2,8 @@
 date = '2025-05-22T21:48:43-05:00'
 draft = false
 title = 'EULA'
+heading = 'Contrat de Licence Utilisateur Final (EULA)'
 +++
-
-# Contrat de Licence Utilisateur Final (EULA)
 
 ## 1. Conditions d'utilisation
 Pet Check AI est disponible sur iOS/iPadOS et Android. Les conditions d'utilisation applicables dépendent de la plateforme sur laquelle vous avez obtenu l'application.

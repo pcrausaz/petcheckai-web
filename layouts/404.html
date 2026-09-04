@@ -1,0 +1,9 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="wrap">
+    <h1 class="page-header__title">{{ i18n "page_not_found" }}</h1>
+    <p class="page-header__meta">{{ i18n "page_not_found_text" }}</p>
+    <p><a class="btn-link" href="{{ "/" | relLangURL }}">{{ i18n "back_home" }}</a></p>
+  </div>
+</section>
+{{ end }}

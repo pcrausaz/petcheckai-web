@@ -27,13 +27,17 @@ This is a Hugo-based static website for the Pet Check AI app (petcheckai.com). I
 - **Page types**: Each language has identical structure with Home, FAQ, Support, Privacy, and EULA pages
 - **Configuration**: hugo.toml defines language-specific menus and parameters
 
-### Theme Bigspring (Current)
-- Uses Bigspring Hugo theme from `/themes/bigspring/`
-- Theme provides responsive layout with Bootstrap-based styling
-- Custom layouts in `/layouts/` override theme defaults
-- Custom shortcodes: betastamp, buymeacoffee, downloadapp, downloadappbeta, welcome-guide
-- Custom partials created to support theme requirements 
-
+### Theme and layouts (current)
+- The Bigspring theme is still declared in `hugo.toml` (it provides a few fallbacks), but every rendered template is overridden in `/layouts/`:
+  - `_default/baseof.html` – base skeleton (head partials, header, main, footer, inline script)
+  - `index.html` – home page, rendered entirely from `_index.md` front matter (banner/demo phone, features bento, service, app_features, disclaimer, call_to_action, help)
+  - `_default/single.html` – text pages (FAQ, Support, Privacy, EULA) with a page header and a sticky table of contents
+  - `partials/header.html`, `partials/footer.html`, `partials/download-badges.html`, `partials/icon.html` (inline SVG icons keyed by name)
+  - `partials/style.html` compiles `assets/scss/style.scss`; `partials/script.html` holds the tiny mobile-nav toggle
+- Design: "Daylight" – pale blue hero with a glow, white body, navy call-to-action; fonts Sora (display) + Manrope (body) from Google Fonts; accent `#2B5CE6` from the app icon. No Bootstrap, no Font Awesome.
+- Hero phone: a CSS mock screen driven by `banner.demo` in the home front matter. Set `params.hero_screenshot` in `hugo.toml` to a real app capture (path under `/static`) to replace it.
+- UI strings live in `/i18n/en-US.toml` and `/i18n/fr-FR.toml`.
+- Text pages keep the page heading in front matter (`heading`) rather than an H1 in the markdown.
 
 ### Static Assets
 - `/static/` - Files copied directly to site root
@@ -42,7 +46,7 @@ This is a Hugo-based static website for the Pet Check AI app (petcheckai.com). I
 
 ### Key Files
 - `hugo.toml` - Main configuration with multilingual setup
-- `/layouts/partials/i18nlist.html` - Language switcher
+- `/layouts/partials/header.html` - Navigation and language switcher
 - `/content/*/images/` - Page-specific images per language
 - `/data/` - Data files for Hugo
 - `/assets/scss/style.scss` - Custom SCSS styles for the site
@@ -59,10 +63,8 @@ Created to support Bigspring theme requirements:
 - `/layouts/partials/favicon.html` - Favicon and icon links
 - `/layouts/partials/basic-seo.html` - Basic SEO meta tags
 - `/layouts/partials/logo.html` - Site logo/brand display
-- `/layouts/partials/social/share.html` - Social sharing placeholder
-- `/layouts/partials/script.html` - Custom script loading (overrides theme)
+- `/layouts/partials/script.html` - Inline mobile-nav script (overrides theme)
 - Various analytics partials (gtm, matomo, baidu, plausible, counter)
-- Layout helper partials (preloader, tags, menu-contextual)
 
 ## Development Notes
 
@@ -74,18 +76,8 @@ Created to support Bigspring theme requirements:
 
 ## Theme Transition Notes
 
-### From Ananke to Bigspring
-- **Completed**: Successfully transitioned from Ananke to Bigspring theme
-- **Plugin Status**: CSS/JS plugins temporarily disabled due to missing Font Awesome and Bootstrap dependencies
-- **Custom Styling**: Created simplified SCSS with basic styling to replace missing Bootstrap dependencies
-- **All Shortcodes**: Working properly with new theme
-
-### Known Issues & TODO
-- [ ] Re-enable Font Awesome plugins when dependencies are available
-- [ ] Consider adding Bootstrap dependencies if advanced styling is needed
-- [ ] Test all shortcodes in production environment
+- Ananke → Bigspring (2025), then Bigspring styling replaced by the custom "Daylight" layouts and stylesheet (September 2026). The theme's CSS/JS plugins are intentionally not loaded.
 
 ### Troubleshooting
 - If you see "template for shortcode not found" errors, check `/layouts/shortcodes/` directory
-- If CSS/JS plugins fail, they are likely commented out in `hugo.toml` - dependencies need to be installed first
 - Missing partials should be created in `/layouts/partials/` with at least placeholder content

@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{- $hasToc := gt (len (findRE "<li" (string .TableOfContents))) 0 -}}
+<section class="page-header">
+  <div class="wrap">
+    {{ with .Params.eyebrow }}<p class="page-header__eyebrow">{{ . }}</p>{{ end }}
+    <h1 class="page-header__title">{{ .Params.heading | default .Title }}</h1>
+    {{ with .Description }}<p class="page-header__meta">{{ . }}</p>{{ end }}
+  </div>
+</section>
+<section class="section page-body">
+  <div class="wrap page-body__grid{{ if not $hasToc }} page-body__grid--single{{ end }}">
+    {{ if $hasToc }}
+    <aside class="toc">
+      <p class="toc__label">{{ i18n "on_this_page" }}</p>
+      {{ .TableOfContents }}
+    </aside>
+    {{ end }}
+    <article class="content">
+      {{ .Content }}
+    </article>
+  </div>
+</section>
+{{ end }}

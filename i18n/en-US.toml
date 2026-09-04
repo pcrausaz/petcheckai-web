@@ -1,0 +1,30 @@
+[on_this_page]
+other = "On this page"
+[legal]
+other = "Legal"
+[help_center]
+other = "Help"
+[skip_to_content]
+other = "Skip to content"
+[menu]
+other = "Menu"
+[language]
+other = "Language"
+[read_full_disclaimer]
+other = "Read the full disclaimer"
+[hide_full_disclaimer]
+other = "Hide the full disclaimer"
+[ai_guidance]
+other = "AI guidance · not a diagnosis"
+[app_store_alt]
+other = "Download on the App Store"
+[play_store_alt]
+other = "Get it on Google Play"
+[all_rights]
+other = "All rights reserved."
+[page_not_found]
+other = "Page not found"
+[page_not_found_text]
+other = "The page you are looking for does not exist or has moved."
+[back_home]
+other = "Back to the home page"

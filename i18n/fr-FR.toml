@@ -1,0 +1,30 @@
+[on_this_page]
+other = "Sur cette page"
+[legal]
+other = "Mentions légales"
+[help_center]
+other = "Aide"
+[skip_to_content]
+other = "Aller au contenu"
+[menu]
+other = "Menu"
+[language]
+other = "Langue"
+[read_full_disclaimer]
+other = "Lire l'avis complet"
+[hide_full_disclaimer]
+other = "Masquer l'avis complet"
+[ai_guidance]
+other = "Conseil IA · pas un diagnostic"
+[app_store_alt]
+other = "Télécharger dans l'App Store"
+[play_store_alt]
+other = "Disponible sur Google Play"
+[all_rights]
+other = "Tous droits réservés."
+[page_not_found]
+other = "Page introuvable"
+[page_not_found_text]
+other = "La page que vous cherchez n'existe pas ou a été déplacée."
+[back_home]
+other = "Retour à l'accueil"

@@ -1,61 +1,44 @@
-{{ "<!-- navigation -->" | safeHTML }}
-<header class="navigation">
-  <div class="container">
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-      <!-- navbar brand/logo -->
-      <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
-        {{ partial "logo.html" }}
-      </a>
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-      </button>
+{{- $current := strings.TrimSuffix "/" .RelPermalink -}}
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="{{ "/" | relLangURL }}">
+      <img class="brand__icon" src="/PetCheck-Web.png" alt="" width="38" height="38">
+      <span class="brand__name">{{ site.Title }}</span>
+    </a>
 
-      <div class="collapse navbar-collapse" id="navigation">
-        <ul class="navbar-nav mx-auto">
-          {{ range site.Menus.main }}
-          {{ if .HasChildren }}
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              {{ .Name }}
-            </a>
-            <ul class="dropdown-menu">
-              {{ range .Children }}
-              <li><a class="dropdown-item" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
-              {{ end }}
-            </ul>
-          </li>
-          {{ else }}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a>
-          </li>
-          {{ end }}
-          {{ end }}
+    <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav" aria-label="{{ i18n "menu" }}">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
 
-          <!-- Language List -->
-          {{ if hugo.IsMultilingual }}
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              🌐 {{ .Site.Language.Params.languageName }}
-            </a>
-            <ul class="dropdown-menu">
-              {{ range .Site.Languages }}
-              {{ if eq .Lang $.Site.Language.Lang }}
-              <li><a class="dropdown-item active" href="{{ absLangURL "/" }}">
-                {{ .Params.languageName }}
-              </a></li>
-              {{ else }}
-              <li><a class="dropdown-item" href="{{ printf "/%s/" .Lang | absURL }}">
-                {{ .Params.languageName }}
-              </a></li>
-              {{ end }}
-              {{ end }}
-            </ul>
-          </li>
-          {{ end }}
-        </ul>
+    <nav id="site-nav" class="site-nav" data-nav aria-label="{{ i18n "menu" }}">
+      <ul class="site-nav__list">
+        {{ range site.Menus.main }}
+        {{- $url := strings.TrimSuffix "/" .URL -}}
+        {{- $active := or (eq $url $current) (and (eq .Identifier "home") (eq $current (strings.TrimSuffix "/" (relLangURL "/")))) -}}
+        <li><a class="site-nav__link{{ if $active }} is-active{{ end }}" href="{{ .URL | relLangURL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+
+      {{ if hugo.IsMultilingual }}
+      {{ $page := . }}
+      <div class="lang-switch" aria-label="{{ i18n "language" }}">
+        {{ range site.Languages }}
+          {{- $lang := .Lang -}}
+          {{- $isCurrent := eq $lang $page.Language.Lang -}}
+          {{- $target := "" -}}
+          {{- if $isCurrent -}}
+            {{- $target = $page.RelPermalink -}}
+          {{- else -}}
+            {{- range $page.Translations -}}{{- if eq .Language.Lang $lang -}}{{- $target = .RelPermalink -}}{{- end -}}{{- end -}}
+            {{- if not $target -}}
+              {{- if eq $lang site.DefaultContentLanguage -}}{{- $target = "/" | relURL -}}{{- else -}}{{- $target = printf "/%s/" $lang | relURL -}}{{- end -}}
+            {{- end -}}
+          {{- end -}}
+          {{- $short := index (split $lang "-") 0 | upper -}}
+          <a class="lang-switch__item{{ if $isCurrent }} is-active{{ end }}" href="{{ $target }}" hreflang="{{ $lang }}" lang="{{ $lang }}" title="{{ .LanguageName }}"{{ if $isCurrent }} aria-current="true"{{ end }}>{{ $short }}</a>
+        {{ end }}
       </div>
+      {{ end }}
     </nav>
   </div>
 </header>
-{{ "<!-- /navigation -->" | safeHTML }}

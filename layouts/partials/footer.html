@@ -1,0 +1,15 @@
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <div class="site-footer__brand">
+      <img src="/PetCheck-Web.png" alt="" width="26" height="26">
+      <span class="site-footer__name">{{ site.Title }}</span>
+      <span class="site-footer__copy">© {{ now.Year }}</span>
+    </div>
+    <ul class="site-footer__links">
+      {{ range site.Menus.main }}{{ if ne .Identifier "home" }}
+      <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+      {{ end }}{{ end }}
+      {{ with site.Params.support_email }}<li><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
+    </ul>
+  </div>
+</footer>

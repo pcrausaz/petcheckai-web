@@ -2,9 +2,8 @@
 date = '2025-05-22T21:48:43-05:00'
 draft = false
 title = 'EULA'
+heading = 'End User License Agreement (EULA)'
 +++
-
-# End User License Agreement (EULA)
 
 ## 1. Terms of Use
 Pet Check AI is available on both iOS/iPadOS and Android. The applicable terms of use depend on the platform from which you obtained the app.
